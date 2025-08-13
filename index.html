@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no">
+
+    <title>MatLim - Productos de Limpieza | Tizimín, Yucatán</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="img/Green Modern Badge Gardening Logo Design.png" alt="MatLim - Productos de Limpieza" />
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#tienda" class="nav-link">Nuestra Tienda</a></li>
+                <li><a href="#servicios" class="nav-link">Productos</a></li>
+                <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Productos de <span class="highlight">Limpieza</span> de Calidad</h1>
+                    <p>En MatLim ofrecemos la más amplia gama de productos de limpieza para el hogar, oficina e industria. Calidad garantizada y precios competitivos en Tizimín, Yucatán.</p>
+                    <div class="cta-buttons">
+                        <button onclick="scrollToSection('contacto')" class="btn btn-primary">Contáctanos</button>
+                        <button onclick="scrollToSection('servicios')" class="btn btn-secondary">Ver Productos</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="cleaning-icon">🧽</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Sobre MatLim</h3>
+                    <p>Somos una empresa comprometida con ofrecer productos de limpieza de la más alta calidad en Tizimín y sus alrededores. Con años de experiencia en el sector, nos hemos consolidado como la opción preferida para hogares, oficinas y empresas.</p>
+                    <p>Nuestro compromiso es brindar soluciones de limpieza efectivas, productos confiables y un servicio al cliente excepcional que supere sus expectativas.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <span>Productos de Calidad</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <span>Precios Competitivos</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <span>Atención Personalizada</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <span>Entrega Rápida</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="cleaning-icon">✅</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Photo Section - NUEVA SECCIÓN -->
+    <section id="tienda" class="store-photo">
+        <div class="store-photo-container">
+            <div class="store-photo-content">
+                <h2>Nuestra Tienda</h2>
+                <p>Visítanos en nuestro establecimiento en Tizimín, donde encontrarás un amplio surtido de productos de limpieza y la mejor atención personalizada</p>
+            </div>
+            <div class="store-image-container">
+                <!-- Placeholder - Reemplazar con tu imagen -->
+                <!--<div class="store-image-placeholder">
+                    <p><strong>📷 Coloca aquí la foto exterior de tu tienda</strong></p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.8;">
+                        Para cambiar esta imagen:<br>
+                        1. Guarda tu foto como "tienda-exterior.jpg"<br>
+                        2. Descomenta la línea &lt;img&gt; de abajo<br>
+                        3. Comenta o elimina este placeholder 
+                    </p> 
+                </div>-->
+                <!-- Descomenta la siguiente línea y agrega tu imagen -->
+                <img src="img/tienda-exterior.png" alt="Fachada de MatLim - Tienda de productos de limpieza" class="store-image">
+                
+                <div class="store-overlay">
+                    <h3>MatLim - Tu tienda de confianza</h3>
+                    <p>Calle 56 #425A entre 55 y 57, Tizimín, Yucatán</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - MODIFICADO CON IMÁGENES -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Productos</h2>
+                <p class="section-subtitle">Ofrecemos una amplia variedad de productos de limpieza para satisfacer todas sus necesidades</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <!-- Placeholder para imagen - Cambiar fácilmente -->
+                    <!--<div class="service-image-placeholder">🏠</div>-->
+                    <!-- Para usar imagen real, descomenta la siguiente línea y comenta el placeholder de arriba -->
+                    <img src="img/mat.png" alt="Productos de limpieza para el hogar" class="service-image">
+                    <h3>Baño</h3>
+                    <p>Limpiador de inodoros, Desinfectante en spray, Gel para lavamanos, Limpiavidrios para espejos, Removedor de sarro, Pastillas aromatizantes para WC, Cepillo para inodoros.</p>
+                </div>
+                <div class="service-card">
+                    <!--<div class="service-image-placeholder">🏢</div>-->
+                    <img src="img/mat.png" alt="Productos de limpieza industrial" class="service-image">
+                    <h3>Lavado</h3>
+                    <p>Detergente en polvo, Detergente líquido, Suavizante de telas, Quitamanchas, Blanqueador (cloro), Bolsas para lavado de prendas delicadas, Jabón en barra para ropa.</p>
+                </div>
+                <div class="service-card">
+                    <!--<div class="service-image-placeholder">✨</div>-->
+                    <img src="img/mat.png" alt="Productos especializados de limpieza" class="service-image">
+                    <h3>Hogar</h3>
+                    <p>Limpiador multiusos, Limpiador de pisos, Aromatizante ambiental, Paños de microfibra, Escoba y recogedor, Fregona (mopa), Guantes de limpieza.</p>
+                </div>
+                <div class="service-card">
+                    <!--<div class="service-image-placeholder">🛡️</div>-->
+                    <img src="img/mat.png" alt="Desinfectantes y productos antibacteriales" class="service-image">
+                    <h3>Higiene</h3>
+                    <p>Jabón líquido para manos, Alcohol en gel, Toallas húmedas desinfectantes, Desodorante corporal, Shampoo, Crema corporal, Papel higiénico.</p>
+                </div>
+                <div class="service-card">
+                    <!--<div class="service-image-placeholder">🧴</div>-->
+                    <img src="img/mat.png" alt="Accesorios de limpieza" class="service-image">
+                    <h3>Autos</h3>
+                    <p>Shampoo para carrocería, Cera líquida para autos, Limpiador de vidrios para autos, Limpiador de tapicería, Ambientador para auto, Limpiador de llantas, Microfibra especial para autos.</p>
+                </div>
+                <div class="service-card">
+                    <!--<div class="service-image-placeholder">🎯</div>-->
+                    <img src="img/mat.png" alt="Asesoría especializada en limpieza" class="service-image">
+                    <h3>Empresas</h3>
+                    <p>Limpiador industrial multiusos, Desengrasante concentrado, Jabón antibacterial a granel, Papel toalla industrial, Trapeadores industriales, Limpiador de alfombras, Cubetas y mopas profesionales
+.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="ubicacion" class="section location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ubicación y Horarios</h2>
+                <p class="section-subtitle">Visítenos en nuestra tienda en Tizimín</p>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Dirección</h4>
+                            <p>Calle 56 #425A entre 55 y 57<br>Tizimín, Yucatán, México</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>Teléfono</h4>
+                            <p>999 122 1847</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>matlim.tizimin@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule">
+                    <h4>Horarios de Atención</h4>
+                    <div class="schedule-item">
+                        <span class="day">Lunes</span>
+                        <span class="hours">9:00 AM - 5:00 PM</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day">Martes</span>
+                        <span class="hours">9:00 AM - 5:00 PM</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day">Miércoles</span>
+                        <span class="hours">9:00 AM - 5:00 PM</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day">Jueves</span>
+                        <span class="hours">9:00 AM - 5:00 PM</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day">Viernes</span>
+                        <span class="hours">9:00 AM - 5:00 PM</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day">Sábado</span>
+                        <span class="hours">9:00 AM - :00 PM</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day">Domingo</span>
+                        <span class="hours closed">Cerrado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-subtitle">¿Necesita productos de limpieza? Estamos aquí para ayudarle</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form id="contactForm" onsubmit="return false;">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué productos necesita o cómo podemos ayudarle..." required></textarea>
+                        </div>
+                        <button type="button" onclick="enviarWhatsApp()" class="btn btn-primary">Enviar por WhatsApp</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Información Adicional</h3>
+                    <p style="margin-bottom: 2rem; color: var(--text-gray);">Estamos comprometidos con brindarle el mejor servicio y los productos de limpieza de más alta calidad en Tizimín.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">🚚</div>
+                        <div class="info-text">
+                            <h4>Entrega a Domicilio</h4>
+                            <p>Servicio de entrega disponible en Tizimín y zonas cercanas</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">💳</div>
+                        <div class="info-text">
+                            <h4>Formas de Pago</h4>
+                            <p>Aceptamos efectivo, tarjetas de débito y crédito</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🎯</div>
+                        <div class="info-text">
+                            <h4>Asesoría Gratuita</h4>
+                            <p>Le ayudamos a elegir los productos más adecuados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MatLim</h3>
+                    <img src="img/tt.png" alt="MatLim" style="height: 40px; margin-bottom: 1rem; opacity: 0.8;" />
+                    <p>Su socio confiable en productos de limpieza en Tizimín, Yucatán. Calidad, servicio y precios competitivos.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>📍 Calle 56 #425A entre 55 y 57</p>
+                    <p>Tizimín, Yucatán, México</p>
+                    <p>📞 999 122 1847</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes: 8:00 AM - 8:00 PM</p>
+                    <p>Sábado: 8:00 AM - 3:00 PM</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MatLim. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
