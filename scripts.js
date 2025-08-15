@@ -233,7 +233,7 @@ _Enviado desde su página web_`;
             const encodedMessage = encodeURIComponent(whatsappMessage);
             
             // Open WhatsApp Web/App
-            const whatsappURL = `https://wa.me/5219861074347?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/5219991221847?text=${encodedMessage}`;
             window.open(whatsappURL, '_blank');
         });
         
@@ -258,4 +258,5 @@ _Enviado desde su página web_`;
                 document.body.style.opacity = '1';
             }, 100);
         });
+
 
