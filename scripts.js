@@ -77,7 +77,7 @@ _Enviado desde la página web de MatLim_`;
             const encodedMessage = encodeURIComponent(whatsappMessage);
             
             // Open WhatsApp
-            const whatsappURL = `https://wa.me/5219861074347?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/5219991221847?text=${encodedMessage}`;
             window.open(whatsappURL, '_blank');
             
             // Clear form after sending
@@ -258,3 +258,4 @@ _Enviado desde su página web_`;
                 document.body.style.opacity = '1';
             }, 100);
         });
+
