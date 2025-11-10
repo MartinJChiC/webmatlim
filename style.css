@@ -599,10 +599,10 @@
         }
 
         
-        .footer {
+        /*.footer {
     pointer-events: none !important;
     cursor: default !important;
-}
+} */
         .footer * {
             text-decoration: none !important;
         }
@@ -761,4 +761,5 @@
 meta[name="format-detection"] {
     telephone: no;
 }
+
 
